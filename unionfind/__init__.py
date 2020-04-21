@@ -48,7 +48,7 @@ class unionfind:
 
     @staticmethod
     def isconnectedlist(nw, nh, lst):
-        l = [[False] * nw for j in range(nh)]
+        ll = [[False] * nw for j in range(nh)]
         for i, j in lst:
-            l[i][j] = True
-        return unionfind.isconnected(l)
+            ll[i][j] = True
+        return unionfind.isconnected(ll)
