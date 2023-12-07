@@ -1,5 +1,5 @@
 # see pyproject.toml
-__version__ = "0.1.1"
+__version__ = "0.1.2"
 __author__ = "Saito Tsutomu <tsutomu7@hotmail.co.jp>"
 from typing import Optional
 
