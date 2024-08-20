@@ -1,7 +1,6 @@
 # see pyproject.toml
-__version__ = "0.1.2"
+__version__ = "0.2.0"
 __author__ = "Saito Tsutomu <tsutomu7@hotmail.co.jp>"
-from typing import Optional
 
 
 class unionfind:
@@ -27,7 +26,7 @@ class unionfind:
         return [[j for j in r if self.issame(j, i)] for i in r if i == self.parent[i]]
 
     @staticmethod
-    def isconnected(ll: list[list[bool]], u: Optional["unionfind"] = None) -> bool:
+    def isconnected(ll: list[list[bool]], u: "unionfind | None" = None) -> bool:
         nw, nh = len(ll), len(ll[0])
         rw, rh = range(nw), range(nh)
         if not u:
