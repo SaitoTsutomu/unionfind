@@ -19,7 +19,7 @@ python = "^3.12"
 
 [tool.poetry.group.dev.dependencies]
 mypy = "^1.11"
-pytest = "^8.3"
+pytest = "^9"
 
 [build-system]
 build-backend = "poetry.core.masonry.api"
